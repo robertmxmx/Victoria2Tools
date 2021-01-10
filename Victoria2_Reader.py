@@ -1,9 +1,11 @@
 import re
 import csv
 
-###################################################################
-#you must check and change the following things for the program to work
-###################################################################
+############################################################################################################################################################
+# Created By Robert Milligan 2021 You may use and change this tool for any project you wish but please credit me in any produced works/progams/videos/posts#
+############################################################################################################################################################
+#you must check and change the following things for the program to work#
+########################################################################
 # 1. find the countryfile for vanilla or the mod you are using
         #it will be in Victoria 2/common/countries.txt
         #or if using a mod which overides it use Victoria 2/*modname*/common/countries.txt
