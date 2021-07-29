@@ -279,8 +279,8 @@ if __name__ == "__main__":
         year_list = ["Culture"]
 
     for j in range(years_of_game):
-        year_list.append(start_year + j)
-        year_list.append(start_year + j)
+        for k in range(saves_per_year):
+            year_list.append(start_year + j)
 
     if remove_0_tags:
         country_list = [x for x in country_list if max(x[2:]) > 0]
